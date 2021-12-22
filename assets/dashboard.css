@@ -1,0 +1,52 @@
+.menu{
+    
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+    padding: 1em;
+}
+
+.menu-box{
+
+    width: 30%;
+    height: 150px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 25px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .menu{
+        padding: 1.5em 1em;    
+    }
+    .menu-box{
+        width: 45%;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .menu-box:hover{      
+        background-color: white;  
+        border: 2px solid #28a745;
+        color: #28a745;
+        
+    }
+
+    .menu-box i{
+    }
+
+    .menu-box p{
+        margin-top: 5px;
+        font-size: 1.5em;        
+    }
+
+    .jadwal{
+        width: 100%;
+    }
+}
